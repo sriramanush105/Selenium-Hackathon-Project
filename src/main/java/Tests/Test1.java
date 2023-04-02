@@ -10,10 +10,7 @@ public class Test1 {
 	public static WebDriver  driver;	
 	@BeforeClass
 	public void DriverSetup() {
-			//code to invoke driver
-		System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\Drivers\\msedgedriver.exe");
-		driver =new EdgeDriver();
-		driver.get("https://www.tripadvisor.in/");
+
 		
 		}
 	@Test
@@ -24,7 +21,6 @@ public class Test1 {
 	@AfterClass
 	public void CloseDriver()
 	{
-		driver.close();
-		driver.quit();
+		
 	}
 }

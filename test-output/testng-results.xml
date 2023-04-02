@@ -1,80 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-31T17:24:01 IST" name="Suite" finished-at="2023-03-31T17:24:07 IST" duration-ms="5237">
+  <suite started-at="2023-04-02T21:09:24 IST" name="Suite" finished-at="2023-04-02T21:10:26 IST" duration-ms="61788">
     <groups>
     </groups>
-    <test started-at="2023-03-31T17:24:01 IST" name="Test" finished-at="2023-03-31T17:24:07 IST" duration-ms="5237">
+    <test started-at="2023-04-02T21:09:24 IST" name="Test" finished-at="2023-04-02T21:10:26 IST" duration-ms="61788">
       <class name="Tests.Test4">
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test4@434a63ab]" started-at="2023-03-31T17:24:01 IST" name="DriverSetup" finished-at="2023-03-31T17:24:01 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test4@53ce1329]" started-at="2023-04-02T21:09:24 IST" name="DriverSetup" finished-at="2023-04-02T21:09:24 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverSetup -->
-        <test-method signature="test1()[pri:0, instance:Tests.Test4@434a63ab]" started-at="2023-03-31T17:24:01 IST" name="test1" finished-at="2023-03-31T17:24:01 IST" duration-ms="4" status="PASS">
+        <test-method signature="test1()[pri:0, instance:Tests.Test4@53ce1329]" started-at="2023-04-02T21:09:24 IST" name="test1" finished-at="2023-04-02T21:09:24 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test4@434a63ab]" started-at="2023-03-31T17:24:02 IST" name="CloseDriver" finished-at="2023-03-31T17:24:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test4@53ce1329]" started-at="2023-04-02T21:09:24 IST" name="CloseDriver" finished-at="2023-04-02T21:09:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
       </class> <!-- Tests.Test4 -->
       <class name="Tests.Test3">
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test3@f0da945]" started-at="2023-03-31T17:24:02 IST" name="DriverSetup" finished-at="2023-03-31T17:24:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test3@2c1b194a]" started-at="2023-04-02T21:09:24 IST" name="DriverSetup" finished-at="2023-04-02T21:09:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverSetup -->
-        <test-method signature="test1()[pri:0, instance:Tests.Test3@f0da945]" started-at="2023-03-31T17:24:02 IST" name="test1" finished-at="2023-03-31T17:24:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="test1()[pri:0, instance:Tests.Test3@2c1b194a]" started-at="2023-04-02T21:09:24 IST" name="test1" finished-at="2023-04-02T21:09:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test3@f0da945]" started-at="2023-03-31T17:24:02 IST" name="CloseDriver" finished-at="2023-03-31T17:24:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test3@2c1b194a]" started-at="2023-04-02T21:09:24 IST" name="CloseDriver" finished-at="2023-04-02T21:09:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
       </class> <!-- Tests.Test3 -->
       <class name="Tests.Test5">
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test5@53ce1329]" started-at="2023-03-31T17:24:07 IST" name="DriverSetup" finished-at="2023-03-31T17:24:07 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DriverSetup -->
-        <test-method signature="test1()[pri:0, instance:Tests.Test5@53ce1329]" started-at="2023-03-31T17:24:07 IST" name="test1" finished-at="2023-03-31T17:24:07 IST" duration-ms="1" status="PASS">
+        <test-method signature="test1()[pri:0, instance:Tests.Test5@36916eb0]" started-at="2023-04-02T21:10:26 IST" name="test1" finished-at="2023-04-02T21:10:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test5@53ce1329]" started-at="2023-03-31T17:24:07 IST" name="CloseDriver" finished-at="2023-03-31T17:24:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test5@36916eb0]" started-at="2023-04-02T21:10:26 IST" name="DriverSetup" finished-at="2023-04-02T21:10:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test5@36916eb0]" started-at="2023-04-02T21:10:26 IST" name="CloseDriver" finished-at="2023-04-02T21:10:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
       </class> <!-- Tests.Test5 -->
       <class name="Tests.Test2">
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test2@4803b726]" started-at="2023-03-31T17:24:02 IST" name="DriverSetup" finished-at="2023-03-31T17:24:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:09:24 IST" name="DriverSetup" finished-at="2023-04-02T21:10:04 IST" duration-ms="40390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverSetup -->
-        <test-method signature="test1()[pri:0, instance:Tests.Test2@4803b726]" started-at="2023-03-31T17:24:02 IST" name="test1" finished-at="2023-03-31T17:24:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="test4()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:04 IST" name="test4" finished-at="2023-04-02T21:10:11 IST" duration-ms="6438" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test2@4803b726]" started-at="2023-03-31T17:24:02 IST" name="CloseDriver" finished-at="2023-03-31T17:24:02 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="TakeScreenshot()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:11 IST" name="TakeScreenshot" finished-at="2023-04-02T21:10:11 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="test5()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:11 IST" name="test5" finished-at="2023-04-02T21:10:17 IST" duration-ms="6281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="TakeScreenshot()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:17 IST" name="TakeScreenshot" finished-at="2023-04-02T21:10:18 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="test6()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:18 IST" name="test6" finished-at="2023-04-02T21:10:21 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="TakeScreenshot()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:21 IST" name="TakeScreenshot" finished-at="2023-04-02T21:10:21 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="test7()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:21 IST" name="test7" finished-at="2023-04-02T21:10:25 IST" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="TakeScreenshot()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:25 IST" name="TakeScreenshot" finished-at="2023-04-02T21:10:25 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test2@4dbb42b7]" started-at="2023-04-02T21:10:25 IST" name="CloseDriver" finished-at="2023-04-02T21:10:26 IST" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
       </class> <!-- Tests.Test2 -->
       <class name="Tests.Test1">
-        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test1@ffaa6af]" started-at="2023-03-31T17:24:02 IST" name="DriverSetup" finished-at="2023-03-31T17:24:06 IST" duration-ms="4650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DriverSetup -->
-        <test-method signature="test1()[pri:0, instance:Tests.Test1@ffaa6af]" started-at="2023-03-31T17:24:06 IST" name="test1" finished-at="2023-03-31T17:24:06 IST" duration-ms="2" status="PASS">
+        <test-method signature="test1()[pri:0, instance:Tests.Test1@66f57048]" started-at="2023-04-02T21:10:26 IST" name="test1" finished-at="2023-04-02T21:10:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test1@ffaa6af]" started-at="2023-03-31T17:24:06 IST" name="CloseDriver" finished-at="2023-03-31T17:24:07 IST" duration-ms="545" status="PASS">
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:Tests.Test1@66f57048]" started-at="2023-04-02T21:10:26 IST" name="CloseDriver" finished-at="2023-04-02T21:10:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
+        <test-method is-config="true" signature="DriverSetup()[pri:0, instance:Tests.Test1@66f57048]" started-at="2023-04-02T21:10:26 IST" name="DriverSetup" finished-at="2023-04-02T21:10:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
       </class> <!-- Tests.Test1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
